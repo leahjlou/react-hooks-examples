@@ -40,7 +40,7 @@ This component shows how to use `useEffect` to set up and clean up a timer. It a
 
 ![Article](https://raw.githubusercontent.com/leahjlou/react-hooks-examples/master/article.gif)
 
-[The `ArticleWrapper` component is found in `src/article`](https://github.com/leahjlou/react-hooks-examples/blob/master/src/article/ArticleWrapper).
+[The `ArticleWrapper` component is found in `src/article`](https://github.com/leahjlou/react-hooks-examples/blob/master/src/article/ArticleWrapper.js).
 
 It contains some content with a colorscheme determined by a theme, which you can choose from a dropdown above.
 
