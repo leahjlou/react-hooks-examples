@@ -1,6 +1,6 @@
 # React Hooks Examples
 
-A few examples of basic use cases for React hooks.
+A few examples using React hooks.
 
 ## How to run
 
@@ -38,4 +38,4 @@ The `ArticleWrapper` component is found in `src/article`.
 
 It contains some content with a colorscheme determined by a theme, which you can choose from a dropdown above.
 
-The theme lives in a React Context object. At the top level, there is a Provider which sets and stores the current theme and provides a function to update it. The `ThemeSwitcher` and the `Article` both use the `useContext` Hook to easily reference the current theme from the nearest provider (defined in `ArticleWrapper`).
+The current theme lives in a React Context. At the top level `ArticleWrapper`, there's a Provider which sets and stores the current theme and provides a function to update it. The wrapper renders the `ThemeSwitcher` and `Article` components, which both use the `useContext` Hook to easily reference the current theme from the nearest Provider.
