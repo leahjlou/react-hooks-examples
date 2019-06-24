@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
-import ThemeContext, { themes } from './ThemeContext'
+import './index.css'
 import Article from './Article'
 import ThemeSwitcher from './ThemeSwitcher'
-import './index.css'
+
+import ThemeContext, { themes } from './ThemeContext'
 
 function ArticleWrapper () {
   const [theme, setTheme] = useState(themes[0])

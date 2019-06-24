@@ -19,7 +19,7 @@ export default function useMousePressed () {
       window.removeEventListener('mousedown', handleMouseDown)
       window.removeEventListener('mouseup', handleMouseUp)
     }
-  })
+  }, [])
 
   return mousePressed
 }
