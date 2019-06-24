@@ -16,25 +16,31 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Examples
 
-### Login Form: `useState`
+### Example #1: Login Form with `useState`
 
-The `LoginForm` component is found in `src/login-form`.
+![Login Form](https://raw.githubusercontent.com/leahjlou/react-hooks-examples/master/login-form.gif)
+
+The `LoginForm` component is found in [`src/login-form`](https://github.com/leahjlou/react-hooks-examples/blob/master/src/login-form/LoginForm.js).
 
 This component shows a basic way to use the `useState` hook to manage local state for simple username and password inputs.
 
 For comparison, there is also a `LoginFormClass` component, which shows the same login form written as a Class component.
 
-### Timer: `useEffect`
+### Example #2: Timer with `useEffect`
 
-The `Timer` component is found in `src/timer`.
+![Timer](https://raw.githubusercontent.com/leahjlou/react-hooks-examples/master/timer.gif)
+
+The `Timer` component is found in [`src/timer`](https://github.com/leahjlou/react-hooks-examples/blob/master/src/timer/Timer.js).
 
 It's a timer that counts up in milliseconds. When the mouse is pressed, the timer pauses.
 
 This component shows how to use `useEffect` to set up and clean up a timer. It also uses a custom hook to subscribe to the pressed state of the mouse. The custom hook, `useMousePressed`, is located in `custom-hooks/mouse-pressed.js`.
 
-### Article: `useContext`
+### Example #3: Article with `useContext`
 
-The `ArticleWrapper` component is found in `src/article`.
+![Article](https://raw.githubusercontent.com/leahjlou/react-hooks-examples/master/article.gif)
+
+The `ArticleWrapper` component is found in [`src/article`](https://github.com/leahjlou/react-hooks-examples/blob/master/src/article/ArticleWrapper).
 
 It contains some content with a colorscheme determined by a theme, which you can choose from a dropdown above.
 
