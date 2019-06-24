@@ -1,6 +1,6 @@
 # React Hooks Examples
 
-A few examples using React hooks.
+Some tiny examples using React hooks.
 
 ## How to run
 
@@ -34,7 +34,7 @@ For comparison, there is also a `LoginFormClass` component, which shows the same
 
 It's a timer that counts up in milliseconds. When the mouse is pressed, the timer pauses.
 
-This component shows how to use `useEffect` to set up and clean up a timer. It also uses a custom hook to subscribe to the pressed state of the mouse. The custom hook, `useMousePressed`, is located in `custom-hooks/mouse-pressed.js`.
+This component shows how to use `useEffect` to set up and clean up a timer. It also uses a custom hook to subscribe to the pressed state of the mouse. [The custom hook, `useMousePressed`, is in `custom-hooks/mouse-pressed.js`](https://github.com/leahjlou/react-hooks-examples/blob/master/src/custom-hooks/mouse-pressed.js).
 
 ### Example #3: Article with `useContext`
 
