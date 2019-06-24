@@ -22,6 +22,8 @@ The `LoginForm` component is found in `src/login-form`.
 
 This component shows a basic way to use the `useState` hook to manage local state for simple username and password inputs.
 
+For comparison, there is also a `LoginFormClass` component, which shows the same login form written as a Class component.
+
 ### Timer: `useEffect`
 
 The `Timer` component is found in `src/timer`.
