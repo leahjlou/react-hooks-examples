@@ -8,14 +8,14 @@ function Timer () {
 
   // Timer
   useEffect(function () {
-    const timerId = setInterval(function () {
-      if (!mousePressed) {
+    if (!mousePressed) {
+      const timerId = setInterval(function () {
         setMilliseconds(m => m + 1)
-      }
-    }, 1)
+      }, 1)
 
-    return function cleanup () {
-      clearInterval(timerId)
+      return function cleanup () {
+        clearInterval(timerId)
+      }
     }
   }, [mousePressed])
 
